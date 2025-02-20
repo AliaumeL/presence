@@ -17,12 +17,10 @@ the following HTML snippet:
 <!-- load the assets/presence.js file -->
 <!-- In the head of your html file -->
 <script src="https://aliaumel.github.io/presence/assets/presence.js"></script>
-<!-- create a div with the id "presence" -->
-<div id="presence"></div>
 <!-- create a script tag to load the presence -->
 <script>
-  // load the presence
-  const div = document.getElementById("presence");
-  loadPresenceAliaume(div);
+  // load the presence, webDiv, mailDiv and mainDiv are DOM elmeents meant to be
+  // filled with presence information.
+  updatePresence({ webDiv, mailDiv, mainDiv });
 </script>
 ```
