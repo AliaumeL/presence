@@ -1,5 +1,5 @@
 {
-    "$schema": "https://aliaume.github.io/presence/assets/presence.schema.json",
+    "$schema": "https://aliaumel.github.io/presence/assets/presence.schema.json",
     "websites": [
         {
             "name": "IRIF Page",

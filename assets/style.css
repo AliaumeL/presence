@@ -5,8 +5,13 @@ body {
     padding: 10;
 }
 
+
 h1 {
     color: var(--ensps-A4);
+}
+
+.error {
+    color: var(--ensps-B2);
 }
 
 section {
