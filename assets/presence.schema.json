@@ -1,0 +1,58 @@
+{
+    "$id": "https://aliaume.github.io/presence/assets/presence.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Web Presence",
+    "description": "A schema for describing web presence of people that regularly change their affiliation.",
+    "type": "object",
+    "required": ["websites", "emails"],
+    "definitions": {
+        "status": { "type": "string", "enum": ["active", "disabled", "deprecated"] }
+    },
+    "properties": {
+        "websites": {
+            "type": "array",
+            "description": "List of controlled websites, in order of preference for access.",
+            "items": {
+                "type": "object",
+                "required": ["name", "url", "status", "last-update"],
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "url": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "domain": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "status": { "$ref": "#/definitions/status" },
+                    "last-update": {
+                        "type": "string",
+                        "format": "date"
+                    }
+                }
+            }
+        },
+        "emails": {
+            "type": "array",
+            "description": "List of controlled email addresses, in order of preference for contact.",
+            "items": {
+                "type": "object",
+                "required": ["name", "email", "status"],
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email"
+                    },
+                    "status": { "$ref": "#/definitions/status" }
+                }
+            }
+        }
+    }
+}
+

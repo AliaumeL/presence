@@ -1,0 +1,23 @@
+:root {
+    --ensps-prune: #63003c;
+    --ensps-A1:    #000000;
+    --ensps-B1:    #313e48;
+    --ensps-C1:    #7c878f;
+    --ensps-D1:    #d5dadf;
+    --ensps-A2:    #c60b46;
+    --ensps-B2:    #ed145b;
+    --ensps-C2:    #ee3423;
+    --ensps-D2:    #f37720;
+    --ensps-A3:    #7c2a90;
+    --ensps-B3:    #7d6aae;
+    --ensps-C3:    #c6671d;
+    --ensps-D3:    #febc18;
+    --ensps-A4:    #004e7d;
+    --ensps-B4:    #0e87c9;
+    --ensps-C4:    #0094b5;
+    --ensps-D4:    #46c3d2;
+    --ensps-A5:    #00807a;
+    --ensps-B5:    #40b769;
+    --ensps-C5:    #8cc63e;
+    --ensps-D5:    #d5df3d;
+}

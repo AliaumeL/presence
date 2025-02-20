@@ -1,0 +1,58 @@
+{
+    "$schema": "https://aliaume.github.io/presence/assets/presence.schema.json",
+    "websites": [
+        {
+            "name": "IRIF Page",
+            "url": "https://www.irif.fr/~alopez/",
+            "domain": "https://www.irif.fr/",
+            "status": "active",
+            "last-update": "2025-02-20"
+        },
+        {
+            "name": "CRANS Page",
+            "url": "https://perso.crans.org/alopez/",
+            "domain": "https://perso.crans.org/",
+            "status": "active",
+            "last-update": "2025-02-20"
+        },
+        {
+            "name": "LSV Page",
+            "url": "http://www.lsv.fr/~lopez/",
+            "domain": "http://www.lsv.fr/",
+            "status": "disabled",
+            "last-update": "2025-01-03"
+        }
+    ],
+    "emails": [
+        {
+            "name": "University of Warsaw Email",
+            "email": "ad.nom@uw.edu.pl",
+            "status": "active"
+        },
+        {
+            "name": "IRIF Email",
+            "email": "nom.prenom@irif.fr",
+            "status": "deprecated"
+        },
+        {
+            "name": "LMF Email",
+            "email": "nom.prenom@lmf.cnrs.fr",
+            "status": "deprecated"
+        },
+        {
+            "name": "LSV Email",
+            "email": "nom@lsv.fr",
+            "status": "disabled"
+        },
+        {
+            "name": "ENS (Paris-Saclay) Email",
+            "email": "nom.prenom@ens-paris-saclay.fr",
+            "status": "disabled"
+        },
+        {
+            "name": "ENS (Cachan) Email",
+            "email": "nom.prenom@ens-cachan.fr",
+            "status": "disabled"
+        }
+    ]
+}

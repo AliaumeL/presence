@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>$title$</title>
+        <!-- metadata utf8 / date / author / description / keywords / viewport / etc. -->
+        <meta charset="utf-8">
+        <meta name="date" content="$date$">
+        <meta name="author" content="$author$">
+        <meta name="description" content="$description$">
+        <meta name="keywords" content="$for(keywords)$$it$$sep$,$endfor$">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="assets/ensps.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+    </head>
+    <body>
+        <header>
+        <h1>Aliaume's Presence on the Internet</h1>
+        <p>Here are some links to my presence on the internet:</p>
+        </header>
+        <main>
+        <section id="websites">
+        <h2> Websites </h2>
+        <ol>
+        $for(websites)$
+        <li class="$it.status$"><a href="$it.url$">$it.name$</a> ($it.status$)</li>
+        $endfor$
+        </ol>
+        </section>
+        <section id="emails">
+        <h2> Emails </h2>
+        <ol>
+        $for(emails)$
+        <li class="$it.status$">$it.name$: <code>$it.email$</code> ($it.status$)</li>
+        $endfor$
+        </ol>
+        </section>
+        </main>
+        <footer>
+            Aliaume Lopez
+            --
+            CC BY-SA 4.0
+        </footer>
+    </body>
+</html>
+

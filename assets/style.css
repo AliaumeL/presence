@@ -1,0 +1,95 @@
+body {
+    background-color: "white";
+    font-family: Roboto;
+    margin: 0;
+    padding: 10;
+}
+
+h1 {
+    color: var(--ensps-A4);
+}
+
+section {
+    margin: 10;
+    min-width: 200px;
+    padding: 10;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section h2 {
+    margin: 0;
+    text-align: center;
+    color: var(--ensps-B4);
+}
+
+section ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ol li.active {
+    color: var(--ensps-A4);
+}
+
+section ol li.active::before {
+    content: "✔ — ";
+}
+
+section ol li.deprecated {
+    color: var(--ensps-C1);
+}
+
+section ol li.deprecated a {
+    color: var(--ensps-C1);
+}
+
+section ol li.deprecated::before {
+    content: "✘ — ";
+}
+
+section ol li.disabled {
+    color: var(--ensps-D1);
+    text-decoration: line-through;
+}
+
+section ol li.disabled::before {
+    content: "✘ — ";
+}
+
+section ol li.disabled a {
+    color: var(--ensps-D1);
+}
+
+footer {
+    margin-top: 10;
+    padding: 10;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    color: var(--ensps-A4);
+}
+
+/* for big screens, we add a grid layout */
+@media screen and (min-width: 800px) {
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "websites emails";
+    }
+
+    section#websites {
+        grid-area: websites;
+    }
+
+    section#emails {
+        grid-area: emails;
+    }
+}
