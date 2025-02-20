@@ -15,15 +15,20 @@
     </head>
     <body>
         <header>
-        <h1 class="error">Aliaume Lopez no longer owns this part of the Internet.</h1>
-        This page has been permanently moved. You will find below 
-        links to the <em>active</em> versions of this page (if you activated
-        JavaScript). In case you did not, you can still check my online
-        presence
-        by visiting 
-        <a href="https://aliaumel.github.io/presence/">this page</a>.
+        <h1 class="error">⚰️  Aliaume Lopez no longer owns this part of the Internet 🪦</h1>
+        <p>
+            This page has been permanently moved.
+        </p>
+        <p> 
+            You will find below 
+            links to the <em>active</em> versions of this page (if you activated
+            JavaScript). In case you did not, you can still check my online
+            presence
+            by visiting 
+            <a href="https://aliaumel.github.io/presence/">this page</a>.
+        </p>
         </header>
-        <main>
+        <main id="main">
             <section id="websites">
                 <h2> Websites </h2>
                 <ol id="websites-list">
@@ -45,7 +50,8 @@
         window.onload = () => {
             const webDiv  = document.getElementById('websites-list');
             const mailDiv = document.getElementById('emails-list');
-            updatePresence({ webDiv, mailDiv });
+            const mainDiv = document.getElementById('main');
+            updatePresence({ webDiv, mailDiv, mainDiv });
         };
     </script>
 </html>
