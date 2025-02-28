@@ -34,7 +34,7 @@ const updatePresence = async ({ webDiv, mailDiv }) => {
         const a = document.createElement("a");
         const text = document.createTextNode(email.name);
         a.appendChild(text);
-        a.href = `mailto:${email.address}`;
+        a.href = `mailto:${email.email}`;
         li.appendChild(a);
         mailDiv.appendChild(li);
     });
