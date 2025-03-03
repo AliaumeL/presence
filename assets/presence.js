@@ -32,13 +32,13 @@ const updatePresence = async ({ webDiv, mailDiv }) => {
         if (email.status !== "active") return;
         const li = document.createElement("li");
         const a = document.createElement("a");
-        const code = document.createElement("code");
+        const emailFormatted = document.createElement("code");
         const text = document.createTextNode(email.name);
-        code.appendChild(email.email);
+        emailFormatted.appendChild(email.email);
         a.appendChild(text);
         a.href = `mailto:${email.email}`;
         li.appendChild(a);
-        li.appendChild(code);
+        li.appendChild(emailFormatted);
         mailDiv.appendChild(li);
     });
 };
