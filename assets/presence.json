@@ -25,9 +25,19 @@
     ],
     "emails": [
         {
+            "name": "INP Bordeaux Email",
+            "email": "aliaume.lopez@bordeaux-inp.fr",
+            "status": "active"
+        },
+        {
+            "name": "LaBRI Email",
+            "email": "aliaume.lopez@labri.fr",
+            "status": "active"
+        },
+        {
             "name": "University of Warsaw Email",
             "email": "ad.nom@uw.edu.pl",
-            "status": "active"
+            "status": "deprecated"
         },
         {
             "name": "IRIF Email",
