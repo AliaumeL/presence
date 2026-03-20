@@ -2,18 +2,25 @@
     "$schema": "https://aliaumel.github.io/presence/assets/presence.schema.json",
     "websites": [
         {
+            "name": "Self Hosted Page"
+            "url": "https://aliaume.fr/site",
+            "domain": "https://aliaume.fr/",
+            "status": "active",
+            "last-update": "2026-03-20"
+        },
+        {
             "name": "IRIF Page",
             "url": "https://www.irif.fr/~alopez/",
             "domain": "https://www.irif.fr/",
             "status": "active",
-            "last-update": "2025-02-20"
+            "last-update": "2026-03-20"
         },
         {
             "name": "CRANS Page",
             "url": "https://perso.crans.org/alopez/",
             "domain": "https://perso.crans.org/",
             "status": "active",
-            "last-update": "2025-02-20"
+            "last-update": "2026-03-20"
         },
         {
             "name": "LSV Page",
@@ -24,6 +31,11 @@
         }
     ],
     "emails": [
+        {
+            "name": "Self Hosted Email",
+            "email": "presence@aliaume.fr",
+            "status": "active"
+        },
         {
             "name": "INP Bordeaux Email",
             "email": "aliaume.lopez@bordeaux-inp.fr",
@@ -47,7 +59,7 @@
         {
             "name": "LMF Email",
             "email": "nom.prenom@lmf.cnrs.fr",
-            "status": "deprecated"
+            "status": "disabled"
         },
         {
             "name": "LSV Email",
