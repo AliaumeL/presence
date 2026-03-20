@@ -2,9 +2,16 @@
     "$schema": "https://aliaumel.github.io/presence/assets/presence.schema.json",
     "websites": [
         {
-            "name": "Self Hosted Page"
+            "name": "Self Hosted Page",
             "url": "https://aliaume.fr/site",
             "domain": "https://aliaume.fr/",
+            "status": "active",
+            "last-update": "2026-03-20"
+        },
+        {
+            "name": "INP Bordeaux Page",
+            "url": "https://alopez020.zzz.bordeaux-inp.fr",
+            "domain": "https://alopez020.zzz.bordeaux-inp.fr/",
             "status": "active",
             "last-update": "2026-03-20"
         },
