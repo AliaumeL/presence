@@ -61,7 +61,7 @@
         {
             "name": "IRIF Email",
             "email": "nom.prenom@irif.fr",
-            "status": "deprecated"
+            "status": "disabled"
         },
         {
             "name": "LMF Email",
