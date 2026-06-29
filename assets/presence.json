@@ -56,7 +56,7 @@
         {
             "name": "University of Warsaw Email",
             "email": "ad.nom@uw.edu.pl",
-            "status": "deprecated"
+            "status": "disabled"
         },
         {
             "name": "IRIF Email",
